@@ -1,0 +1,244 @@
+body {
+  background: repeating-linear-gradient(
+    to top,
+    rgba(255, 230, 0, 0.733),
+    rgba(248, 229, 53, 0.733),
+    rgba(218, 209, 131, 0.733),
+    rgb(207, 169, 226),
+    rgb(191, 140, 214),
+    rgb(123, 73, 146)
+  );
+  border-style: dashed;
+  border-width: 3px;
+  border-color: rgba(240, 230, 240, 0.589);
+}
+.contenedor {
+  margin-left: 200px;
+}
+
+.cubo1 {
+  width: 340px;
+  height: 520px;
+  background-color: rgba(240, 230, 240, 0.589);
+  margin-top: 40px;
+}
+
+.cubo3 {
+  width: 340px;
+  height: 730px;
+  background-color: rgba(240, 230, 240, 0.589);
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+.cubo2 {
+  width: 600px;
+  height: 1265px;
+  background-color: rgba(240, 230, 240, 0.589);
+  margin-left: 355px;
+  margin-top: -1267px;
+  margin-bottom: 40px;
+}
+@font-face {
+  font-family: "Blue Bird";
+  src: url("/fonts/BlueBird.otf");
+}
+.nombres {
+  font-family: "Blue Bird";
+  font-size: 43px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.apellidos {
+  font-family: "Blue Bird";
+  font-size: 40px;
+  margin-left: 46px;
+  padding-bottom: 28px;
+}
+.uno {
+  font-size: 19px;
+  margin-left: 50px;
+  padding-bottom: -30px;
+  margin-top: -15px;
+}
+.dos {
+  font-size: 19px;
+  margin-left: 240px;
+  margin-top: -23px;
+  margin-bottom: 7px;
+}
+.tres {
+  font-size: 19px;
+  margin-left: 100px;
+}
+/*----------SOBRE MI---------------------------------------*/
+a.vinculo1:link,
+a.vinculo1:visited {
+  background-color: rgba(248, 236, 71, 0.685);
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  margin-left: 25px;
+  margin-top: 300px;
+  text-decoration: none;
+  border-radius: 18px;
+  font-size: 20px;
+}
+a.vinculo1:hover,
+a.vinculo1:active {
+  background-color: rgb(220, 152, 252);
+}
+.sobremi1 {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 30px;
+}
+.sobremi2 {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+/*---------INTERESES----------------------------------------*/
+.intereses {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.cine {
+  margin-top: -124px;
+  margin-left: 140px;
+}
+.musica {
+  margin-top: 20px;
+}
+.gatos {
+  margin-top: -124px;
+  margin-left: 130px;
+}
+.texto1 {
+  margin-left: 25px;
+}
+.texto2 {
+  margin-left: 10px;
+}
+
+/*--------CONTACTO-----------------------------------------*/
+.contacto1 {
+  margin-left: 80px;
+  margin-top: -25px;
+  margin-right: 25px;
+  margin-bottom: -3px;
+}
+.celular {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ubicacion {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.gmail {
+  margin-left: 25px;
+}
+/*--------PROGRAMAS-----------------------------------------*/
+.programas {
+  margin-left: 30px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.carga1 {
+  margin-left: 250px;
+  margin-top: -60px;
+  margin-bottom: -80px;
+}
+.carga2 {
+  margin-top: -30px;
+  margin-left: 250px;
+  margin-bottom: -80px;
+}
+.carga3 {
+  margin-left: 250px;
+  margin-top: -20px;
+}
+.carga4 {
+  margin-left: 250px;
+  margin-top: -20px;
+}
+.programa1 {
+  margin-left: 25px;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.programa2 {
+  margin-left: 25px;
+  margin-top: 120px;
+  font-size: 20px;
+}
+.programa3 {
+  margin-left: 25px;
+  margin-top: 110px;
+  font-size: 20px;
+}
+.programa4 {
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+/*--------ESTUDIOS-----------------------------------------*/
+a.vinculo2:link,
+a.vinculo2:visited {
+  background-color: rgba(248, 236, 71, 0.685);
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  margin-left: 25px;
+  margin-top: -20px;
+  margin-bottom: -900px;
+  text-decoration: none;
+  border-radius: 18px;
+  font-size: 20px;
+}
+a.vinculo2:hover,
+a.vinculo2:active {
+  background-color: rgb(220, 152, 252);
+}
+/*--------HABILIDADES-----------------------------------------*/
+.habilidades {
+  margin-left: 30px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+.dibujo {
+  margin-top: 55px;
+  margin-left: 75px;
+}
+.actuacion {
+  margin-top: -138px;
+  margin-left: 240px;
+}
+.reposteria {
+  margin-top: -128px;
+  margin-left: 400px;
+}
+/*--------CUALIDADES-----------------------------------------*/
+.cualidades {
+  margin-left: 30px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+/*--------ESTUDIO-----------------------------------------*/
+.estudio1 {
+  margin-left: 60px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.info1 {
+  margin-left: 130px;
+  margin-top: -50px;
+}
+.info2 {
+  margin-left: 130px;
+  margin-top: 10px;
+  margin-bottom: -1px;
+}

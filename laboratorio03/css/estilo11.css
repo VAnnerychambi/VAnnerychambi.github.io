@@ -1,0 +1,60 @@
+/*los vinculos presentan varios estados dentro de los cuales tenemos:
+link: el vinculo normal
+visited: cuando le has sido visitado
+hover: mouse esta sobre el vinculo
+activate: le das click
+*/
+/*aplicamos colores a los estados del vinculo*/
+a.vinculo1:link {
+  color: lime;
+}
+a.vinculo1:visited {
+  color: magenta;
+}
+a.vinculo1:hover {
+  color: orange;
+}
+a.vinculo1:active {
+  color: turquoise;
+}
+/*quitamos las decoraciones del texto*/
+a.vinculo2:link {
+  text-decoration: none;
+}
+a.vinculo2:visited {
+  text-decoration: none;
+}
+a.vinculo2:hover {
+  text-decoration: none;
+}
+a.vinculo2:active {
+  text-decoration: none;
+}
+/*agregamos un estilo para que el vinculo parezca un boton*/
+a.vinculo3:link,
+a.vinculo3:visited {
+  background-color: green;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+a.vinculo3:hover,
+a.vinculo3:active {
+  background-color: red;
+}
+
+/*agregamos un estilo para que el vinculo parezca un boton*/
+a.vinculo4:link,
+a.vinculo4:visited {
+  background-color: rgb(92, 140, 245);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a.vinculo4:hover,
+a.vinculo4:active {
+  background-color: rgb(8, 8, 8);
+}

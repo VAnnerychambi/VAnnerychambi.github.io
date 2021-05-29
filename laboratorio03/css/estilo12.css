@@ -1,0 +1,61 @@
+ul {
+  background-color: turquoise;
+  padding: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+ul li {
+  background-color: wheat;
+  margin: 3px;
+}
+ul li ul {
+  background-color: yellowgreen;
+  padding: 10px;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+ul li ul li {
+  background-color: plum;
+  margin: 3px;
+}
+ul li ul li ul {
+  background-color: deeppink;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px;
+}
+ul li ul li ul li {
+  background-color: gold;
+  color: lavender;
+}
+
+ol {
+  background-color: azure;
+  padding: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+ol li {
+  background-color: rgb(245, 195, 179);
+  margin: 3px;
+}
+ol li ol {
+  background-color: rgba(153, 205, 50, 0.274);
+  padding: 10px;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+ol li ol li {
+  background-color: rgba(221, 160, 221, 0.589);
+  margin: 3px;
+}
+ol li ol li ol {
+  background-color: rgba(20, 161, 255, 0.329);
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px;
+}
+ol li ol li ol li {
+  background-color: rgba(255, 217, 0, 0.589);
+  color: rgb(230, 250, 236);
+}

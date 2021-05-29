@@ -1,0 +1,22 @@
+/* el identificador es para elementos particulares*/
+#menuprincipal {
+  color: steelblue;
+  font-weight: bolder;
+  font-size: larger;
+}
+#titulo1 {
+  color: violet;
+  font-weight: bolder;
+}
+#titulo2 {
+  color: yellowgreen;
+  font-style: bolder;
+}
+#parrafo1 {
+  color: tomato;
+  font-style: italic;
+}
+#parrafo2 {
+  color: rosybrown;
+  font-weight: bolder;
+}

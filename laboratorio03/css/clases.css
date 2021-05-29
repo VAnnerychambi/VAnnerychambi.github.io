@@ -1,0 +1,15 @@
+/*una clase la puedes utilizar varias veces*/
+.menu {
+  color: plum;
+  font-size: larger;
+  font-weight: bolder;
+}
+.parrafo {
+  color: rgb(126, 170, 114);
+  font-style: italic;
+}
+.tituloparrafo {
+  color: rgb(132, 149, 185);
+  font-weight: bolder;
+  font-size: larger;
+}

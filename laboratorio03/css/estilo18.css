@@ -1,0 +1,16 @@
+img {
+  float: right;
+}
+div {
+  float: right;
+  padding: 20px;
+}
+.caja1 {
+  background-color: tan;
+}
+.caja2 {
+  background-color: rgb(180, 210, 140);
+}
+.caja3 {
+  background-color: rgb(199, 220, 228);
+}

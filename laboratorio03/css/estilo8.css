@@ -1,0 +1,69 @@
+/*importamos la letra de google*/
+@import url("https://fonts.googleapis.com/css2? Reggae + One & display = swap");
+* {
+  padding: 10px;
+}
+body {
+  background-color: lightblue;
+}
+.contenedor {
+  background-color: lightcyan;
+}
+/*agregamos el tipo de letra*/
+.parrafo1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.parrafo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*agregamos estilo al parrafo*/
+.parrafo4 {
+  font-style: oblique;
+}
+.parrafo5 {
+  font-style: normal;
+}
+.parrafo6 {
+  font-weight: bold;
+}
+.parrafo7 {
+  font-weight: bolder;
+}
+.parrafo8 {
+  font-variant: small-caps;
+}
+.parrafo9 {
+  font-variant: normal;
+}
+.parrafo10 {
+  font-size: 30px;
+}
+/*utilizamos las fuentes de google descargadas*/
+/*definiendo las letras que se han descargdo*/
+@font-face {
+  font-family: "Indie Flower";
+  src: url("/fonts/IndieFlower-Regular.ttf");
+}
+@font-face {
+  font-family: "Girassol";
+  src: url("/fonts/Girassol-Regular.ttf");
+}
+@font-face {
+  font-family: "Batman";
+  src: url("/fonts/batmfa__.ttf");
+}
+
+.parrafo11 {
+  font-family: "Indie Flower";
+}
+.parrafo12 {
+  font-family: "Girassol";
+}
+/*utilizamos la letra de google importada*/
+.parrafo13 {
+  font-family: "Reggae One", cursiva;
+}
+.parrafo14 {
+  font-family: "Batman";
+  font-size: 25px;
+}
