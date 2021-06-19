@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript parte 3</title>
+    <script type="text/javascript">
+    //ESTRUCTURAS LOGICAS 
+    // se clasifican en:
+    //Condicionales 
+    //Selectivas 
+    //Repetitivas 
+    //Condicionales
+    //Condicion --> Evalucacion--> Verdadero o Falso
+    //Ejemplo
+    // 7 < 5--->FALSO
+    //ESTRUCTURAS CONDICIONALES
+    //Simples 
+    // Dobles
+    //Anidadas
+    //Condicionales Simples ---> Devuelven un valo siempre y cuenado la condicion sea verdadera
+    //Sintaxis
+    // if (condicion){
+    //     .....programa......
+    //}
+
+
+
+
+    //EJEMPLO 1
+
+    //Dearrollar una aplicacion que permita ingresar 3 notas y luego calcular el promedio si el promedio es mayor o igual a 13 se debe un mensaje indicando "Aprobado"
+    //¿Cuantas variables necesito?
+    // 5 
+    //¿Que tipo de datos necesito?
+    //Real y texto
+    //¿Cuales son las variables que necesito?
+    //n1,n2,n3
+
+    //Definiendo e inicializando variables
+    var n1=0,n2=0,n3=0,prom=0,men="";
+
+    //Capturando valores 
+    n1=parseFloat(prompt("Ingrese la nota 1: "));
+    n2=parseFloat(prompt("Ingrese la nota 2: "));
+    n3=parseFloat(prompt("Ingrese la nota 3: "));
+    
+    //Realizando operaciones 
+    prom=(n1+n2+n3)/3;
+
+    //Condicion
+    if(prom>=13){
+        men="Aprobado";
+    }
+
+    //Mostrando resultados 
+    alert("El promedio es: "+prom);
+    alert(men);
+
+
+
+    //EJEMPLO 2
+    //Desarrollar una aplicaion que permita calcular el sueldo final de un trebajador si se sabe que el sueldo basico se ingresa, ademas si el trabajador pertenece a la categoria 3 se le calcula una bonificaion 7% y un descuento del 5% en base al sueldo basico
+    //¿Cuantas variables necesito? 
+    // 5
+    //¿Que tipo de datos necesito?
+    // REAL Y ENTERO
+    //¿Cuales son las varibales que necesito?
+    //  sb, bon, des, sf, cat
+    //¿Que variables voy a leer?
+    // sb, cat
+    //DEfiniendo e inicializando variabes
+    var sb=0, bon=0, des=0, sf=0, cat=0;
+
+    //capturando valores
+    sb=parseFloat(prompt("Ingrese el suledo basico: "));
+    cat=parseFloat(prompt("Ingrese la categoria: "));
+
+    //Condicion 
+    if(cat==3){
+        bon=sb*0.07;
+        des=sb*0.05;
+    }
+
+    //Realizando Operaciones 
+    sf=sb+bon-des;
+
+    //Mostrando resultados 
+    document.write("El sueldo basico es: "+sb+"<br>");
+    document.write("La bonificaion es: "+bon+"<br>");
+    document.write("El descuento es: "+des+"<br>");
+    document.write("El sueldo final es: "+sf+"<br>");
+    document.write("<hr>");
+
+
+
+    </script>
+</head>
+<body>
+    
+    <p aling="centre"><a href= "index.html">Regresar</a></p>   
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" >
+<meta http-equiv ="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"content="width=devic-ewidth, initial-scale=l.0>"
+<title>J avasvript - Parte 4 </title>
+<script type="text/javascript" >
+//Funciones y Procedimientos en Javascript
+//Los procedimientos y funciones permiten agrupar codigo de forma modular
+//del tal mabera que puedo tener bloque de codigo que realicen ciertas
+//acciones
+// Funciones
+//Las funciones devuelven siempre un valor
+//sintaxis
+// function NombreFuncion(parametros){
+//	...	programa ...
+//	return valor;
+//	}
+//Parametros: son valores que pueden o no estar presente en la funcion
+//Son valores que necesita la funcion para realizar en caso esten
+//presentes
+//Return: es el valor que va a devolver la funcion, este valor sera
+//importante porque define el tipo de dato de la funcion
+
+//Ejemplo 1
+// Desarrollar una aplicacion que permita ingresar dos numeros y luego
+// permita calcular las operaciones basicas
+//lCuantas variables necesito?
+//	6
+//Que tipo de datos necesito?
+// Real
+//lCuales son las variables que necesito?
+// nl, n2, sum, res, mul, div
+//Que variables voy a leer?
+// nl, n2
+//declarando funciones
+function CalculaSum(anuml,num2){ return numl+num2;
+}
+function CalculaResta( numl,num2){ return numl-num2;
+}
+function CalculaMultiplicacino( numl,num2){ return numl*num2;
+}
+function CalculaDivision( numl,num2){ return numl/ num2;
+}
+//declarando e inicializando valores
+var n1=0, n2=0, sum=0, res=0, mul=0, div=0;
+//capturando valores nl=parseFloat(prompt("Ingreseel numero 1:"));
+n2=parseFloat(prompt("Ingreseel numero 2:"));
+//llamando a las funciones para calcular 
+sum=CalculaSum(anl,n2); 
+res=CalculaResta( nl,n2);
+mul=CalculaMultpilicacino( n1,n2); 
+div=CalculaDivisi(onn1,n2);
+//mostrando resultados
+document.write("La suma es: "+sum+"<br>"); 
+document.write("La resta es: "+res+"<br>"); 
+document.write("La multiplicacion es: "+mul+"<br>"); 
+document.write("La division es: "+div+"<br>"); 
+document.write("<hr>");
+document.write("<hr>");
+</script>
+</head>
+<body>
+    
+    <p aling="centre"><a href= "index.html">Regresar</a></p>   
+
+</body>
+</html>
