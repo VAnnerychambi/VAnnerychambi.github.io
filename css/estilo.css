@@ -1,32 +1,62 @@
-body{
-    margin: 0;
+body {
+    background-image: url("/img/imagenfondo.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 ul{
     list-style-type:none;
-    margin: 0;
+    margin-left: 440px;
+    margin-top: 200px;
     padding: 0;
-    width: 15%;
-    background-color: bisque;
-    position: fixed;
-    overflow: auto;
-    border: 1px solid sandybrown;
+    width: 20%;
+    background-color: rgba(255, 228, 196, 0.356);
+    border: 1px solid rgba(54, 35, 98, 0.548);
 }
 li{
     text-align: center;
-    border: 1px solid chocolate;
+    border: 1px solid rgba(71, 72, 121, 0.76);
 }
 
 li a{
     display: block;
-    color: rgb(143, 106, 58);
+    color: rgba(58, 61, 88, 0.589);
     padding: 8px 16px;
     text-decoration: none;
 }
 li a.activo{
-    background-color: coral;
-    color: cornsilk;
+    background-color: rgba(255, 144, 80, 0.185);
+    color: rgb(98, 75, 163);
 }
 li a:hover:not(.activo){
-    background-color: rgba(238, 194, 176, 0.801);
-    color: lightyellow;
+    background-color: rgba(220, 176, 238, 0.801);
+    color: rgba(35, 40, 87, 0.877);
 }
+@font-face {
+    font-family: "Blue Bird";
+    src: url("/fonts/BlueBird.otf");
+}
+.nombres {
+    font-family: "Blue Bird";
+    font-size: 50px;
+    margin-left: 240px;
+    margin-top: 100px;
+    color:rgb(87, 81, 126);
+    
+}
+
+
+
+.contenedor {
+    width: 980px;
+    height: 80px;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: auto;
+  }
+  .cabecera {
+    margin-top: -160px;
+    width: 980px;
+    height: 250px;
+  }
