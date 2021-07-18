@@ -1,0 +1,12 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/verdev.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 180%;
+    background-attachment: fixed;
+}
+.contenedor{
+    font-family: 'Tourney', cursive;
+    font-size: 140%;
+    text-align: center;
+}

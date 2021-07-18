@@ -1,0 +1,81 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/NM.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 100% 160%;
+
+}
+form{
+	width:330px;
+	padding:40px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgba(223, 201, 172, 0.26);
+}
+form label{
+	width:117px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"]{
+	width:180px;
+	padding:3px 10px;
+	border:3px double #a18e6ed2;
+	border-radius:3px;
+	background-color:#e4c07c9b;
+	margin:8px 0;
+	display:inline-block;
+}
+form input[type="button"]{
+	width:99%;
+	padding:8px 16px;
+	margin-top:25px;
+	border:3px dotted #a18e6ed2;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#d8b6789b;
+}
+form input[type="button"]:hover{
+	cursor:pointer;
+    color:#a18e6ed2;
+    background-color: #e7c5859b;
+}
+
+.contenedor{
+    font-family: 'Freckle Face', cursive;
+    font-size: 150%;
+    text-align: center;
+    color: #a18e6ed2;
+    }
+	
+	table {
+		border-radius:10px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 50%;
+		border: 2px solid #a18e6ed2;
+		border-collapse: collapse;
+	  }
+	  thead th,
+	  tbody td {
+		border: 2px solid #a18e6ed2;
+	  }
+	  /*aumentar el tamaño del th*/
+	  /*alineamos los datos del th*/
+	  th {
+		height: 35px;
+		text-align: center;
+		vertical-align: top;
+		background-color:  #ddb06394;
+		color: #907649dc;
+	  }
+	  /*agregamos un fondo y un color a la letra cuando pasemos por las filas*/
+	  table tbody tr:hover {
+		background-color: #e6c1815b;
+		color: #907649;
+	  }
+    

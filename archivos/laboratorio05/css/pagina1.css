@@ -1,0 +1,82 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/degradado.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 110%;
+    background-attachment: fixed;
+}
+.contenedor{
+    text-align: center ;
+    font-size: 120%;
+    color: rgba(223, 175, 93, 0.705);
+}
+.contenedor02{
+    text-align: center ;
+    font-size: 200%;
+}
+input[type=text] {
+    border: 5px double rgba(184, 179, 179, 0.705);
+    border-radius: 0;
+  
+    -webkit-appearance: none;
+  }
+  form{
+	width:400px;
+	padding:10px;
+	border-radius:20px;
+	margin:auto;
+    margin-top: 70px;
+	background-color:rgba(219, 198, 127, 0.164);
+}
+form input[type="button"]{
+    margin: auto;
+	width:70%;
+	padding:8px 16px;
+	margin-top:32px;
+    margin-bottom: 32px;
+	border:1px solid rgb(189, 148, 77);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgba(197, 159, 94, 0.705);
+} 
+
+form input[type="button"]:hover{
+	cursor:pointer;
+    background-color: #fff;;
+    color: rgba(197, 159, 94, 0.705);
+}
+form label{
+	width:130px;
+	font-weight:bold;
+	display:inline-block;
+}
+table {
+	border-radius:10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	border: 2px solid rgba(179, 144, 85, 0.705);
+	border-collapse: collapse;
+    background-color: rgba(197, 159, 94, 0.705);
+	border-radius:10px;
+  }
+  thead th,
+  tbody td {
+	border: 2px solid  rgba(144, 108, 47, 0.698);
+  }
+  /*aumentar el tamaño del th*/
+  /*alineamos los datos del th*/
+  th {
+	height: 35px;
+	text-align: center;
+	vertical-align: top;
+	background-color:  #819aaf5b;
+	color: #2e4558;
+  }
+  /*agregamos un fondo y un color a la letra cuando pasemos por las filas*/
+  table tbody tr:hover {
+	background-color: #b9cfe293;
+	color: #2e4558;
+  }

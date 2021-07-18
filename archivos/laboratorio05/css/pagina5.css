@@ -1,0 +1,11 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/pinturaRosaV.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 150%;
+    background-attachment: fixed;
+}
+.contenedor{
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+}

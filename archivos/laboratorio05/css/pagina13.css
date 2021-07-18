@@ -1,0 +1,108 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/fondoblanco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 120%;
+    background-attachment: fixed;
+}
+form{
+	width:465px;
+	padding:40px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgba(73, 158, 158, 0.26);
+}
+form label{
+	width:117px;
+	font-weight:bold;
+	display:inline-block;
+	color: #384f55;
+}
+
+form input[type="text"]{
+	width:300px;
+	padding:3px 10px;
+	border:3px double #7b9fa8;
+	border-radius:3px;
+	background-color:#7ce4df6b;
+	margin:10px 0;
+	display:inline-block;
+}
+form input[type="button"]{
+	width:99%;
+	padding:8px 16px;
+	margin-top:25px;
+	border:3px dotted rgba(255, 255, 255, 0.609);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgba(73, 158, 158, 0.89);
+}
+.contenedor{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 150%;
+    text-align: center;
+    color: rgba(73, 158, 158, 0.89);
+    }
+
+form input[type="date"]{ 
+	width:300px;
+	padding:3px 10px;
+	border:3px double #7b9fa8;
+	border-radius:3px;
+	background-color:#7ce4df6b;
+	margin:10px 0;
+	display:inline-block;
+}
+form input[type="button"]:hover{
+	cursor:pointer;
+    color:rgb(80, 156, 156);
+    background-color: #ffffff;
+}
+table{
+	background-color: rgba(73, 158, 158, 0.26);
+	border-radius:10px;
+}
+.contenedor{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 150%;
+    text-align: center;
+    color: rgba(73, 158, 158, 0.89);
+    }
+	select {
+		width:325px;
+	padding:3px 10px;
+	border:3px double #7b9fa8;
+	border-radius:3px;
+		box-shadow: none;
+		background-color:#7ce4df6b;
+		background-image: none;
+		appearance: none;
+	}
+	table {
+		border-radius:10px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 80%;
+		border: 2px solid #384f55;
+		border-collapse: collapse;
+	  }
+	  thead th,
+	  tbody td {
+		border: 2px solid #384f55;
+	  }
+
+	  th {
+		height: 35px;
+		text-align: center;
+		vertical-align: top;
+		background-color:  rgba(180, 228, 228, 0.198);
+		color: #384f55;
+	  }
+	  /*agregamos un fondo y un color a la letra cuando pasemos por las filas*/
+	  table tbody tr:hover {
+		background-color: rgba(79, 144, 144, 0.198);
+		color: #7e959b;
+	  }
+    

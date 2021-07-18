@@ -1,0 +1,61 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/azulpintura.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 120%;
+}
+form label{
+	width:130px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type=text] {
+    border: 5px double rgba(184, 179, 179, 0.705);
+    border-radius: 0;
+    width:165px;
+	padding:3px 10px;
+    margin:8px 0;
+	display:inline-block;
+    color: rgb(103, 125, 172);
+  
+    -webkit-appearance: none;
+  }
+form input[type=password] {
+    border: 5px double rgba(184, 179, 179, 0.705);
+    border-radius: 0;
+  
+    -webkit-appearance: none;
+  }
+  form{
+	width:330px;
+	padding:20px;
+	border-radius:20px;
+	margin:auto;
+    margin-top: 70px;
+	background-color:rgba(137, 154, 182, 0.329);
+}
+form input[type="button"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(255, 253, 255);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgba(75, 97, 146, 0.719);
+} 
+
+form input[type="button"]:hover{
+	cursor:pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(170, 170, 170, 0.514);
+}
+
+.contenedor{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 150%;
+    text-align: center;
+    }
+    

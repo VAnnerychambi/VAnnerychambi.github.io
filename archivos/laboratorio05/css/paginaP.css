@@ -1,0 +1,36 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/fondoP.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(64, 42, 70);
+    text-align: center;
+    size: 60%;
+  }
+ul{
+    border: darkseagreen;
+    width: 20%;
+    margin: auto;
+    margin-top: 12%
+}
+  ul li{
+    border: 2px solid #6b5fa0d2;
+  }
+  /*aumentar el tamaño del th*/
+  /*alineamos los datos del th*/
+  li {
+    height: 35px;
+    text-align: center;
+    vertical-align: top;
+    background-color:  #f6f3f685;
+ 
+  }
+  /*agregamos un fondo y un color a la letra cuando pasemos por las filas*/
+  ul li:hover {
+    background-color: #9f81e650;
+
+  }

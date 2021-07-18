@@ -1,0 +1,127 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/fondo02.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+select {
+width:173px;
+padding:3px 10px;
+border: #f6f6f6;
+border-radius:3px;
+	box-shadow: none;
+	background-color:#f6f6f6;
+	background-image: none;
+	appearance: none;
+}
+form{
+	width:350px;
+	padding:40px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgba(144, 146, 182, 0.561);
+}
+form label{
+	width:130px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"]{
+	width:150px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+form input[type="number"]{
+	width:150px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form select[type="cboCategoria"]{
+	width:150px;
+	padding:3px 10px;
+	margin:8px 0;
+}
+
+form input[type="button"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgba(243, 231, 231, 0.212);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+form input[type="button"]:hover{
+	cursor:pointer;
+    background-color: #69387cb9;
+}
+form input[type="reset"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:20px;
+	border:1px solid rgba(243, 231, 231, 0.212);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+form input[type="reset"]:hover{
+	cursor:pointer;
+    background-color: #69387cb9;
+}
+
+
+table{
+	background-color: rgba(144, 146, 182, 0.561);
+	border-radius:10px;
+}
+.error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #2e3a61c2;
+    color:#fff;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+table {
+	border-radius:10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	border: 2px solid #2e4558;
+	border-collapse: collapse;
+  }
+  thead th,
+  tbody td {
+	border: 2px solid  #2e4558;
+  }
+  /*aumentar el tamaño del th*/
+  /*alineamos los datos del th*/
+  th {
+	height: 35px;
+	text-align: center;
+	vertical-align: top;
+	background-color:  #819aaf5b;
+	color: #2e4558;
+  }
+  /*agregamos un fondo y un color a la letra cuando pasemos por las filas*/
+  table tbody tr:hover {
+	background-color: #b9cfe293;
+	color: #2e4558;
+  }

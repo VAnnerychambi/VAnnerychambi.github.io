@@ -1,0 +1,120 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/azulpintura.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 120%;
+    background-attachment: fixed;
+}
+form{
+	width:350px;
+	padding:40px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgba(156, 156, 187, 0.377);
+
+}
+.contenedor{
+    text-align: left ;
+    font-size: 140%;
+}
+
+form label{
+	width:100px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"]{
+	width:180px;
+	padding:3px 8px;
+	border:5px double rgba(107, 74, 182, 0.76);
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 10px;
+	display:inline-block;
+}
+
+form input[type="button"]{
+	width:40%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgba(126, 95, 95, 0.212);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgba(107, 74, 182, 0.76);
+}
+form input[type="button"]:hover{
+	cursor:pointer;
+    background-color: #38447c;
+}
+form input[type="reset"]{
+    width:40%;
+	margin-left: auto;
+	padding:8px 16px;
+	margin-top:-33px;
+	border:1px solid rgba(243, 231, 231, 0.212);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgba(107, 74, 182, 0.76);
+}
+form input[type="reset"]:hover{
+	cursor:pointer;
+    background-color: #38447c;
+}
+
+.error{
+    display: none;
+    margin-top: 20px;
+	margin-bottom: 60px;
+    border-radius: 3px;
+    background: #2e3a61c2;
+    color:#fff;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+form label{
+	width:110px;
+	font-weight:bold;
+	display:inline-block;
+
+}
+select {
+	margin:8px 10px;
+width:206px;
+padding:3px 10px;
+border:5px double rgba(107, 74, 182, 0.76);
+border-radius:3px;
+	box-shadow: none;
+	background-color:#f6f6f6;
+	appearance: none;
+}
+
+table {
+	border-radius:10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	border: 2px solid #6e8aa1d2;
+	border-collapse: collapse;
+  }
+  thead th,
+  tbody td {
+	border: 2px solid  #6e8aa1d2;
+  }
+  /*aumentar el tamaño del th*/
+  /*alineamos los datos del th*/
+  th {
+	height: 35px;
+	text-align: center;
+	vertical-align: top;
+	background-color:  #819aaf5b;
+	color: #2e4558;
+  }
+  /*agregamos un fondo y un color a la letra cuando pasemos por las filas*/
+  table tbody tr:hover {
+	background-color: #b9cfe293;
+	color: #2e4558;
+  }

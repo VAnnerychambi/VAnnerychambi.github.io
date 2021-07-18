@@ -1,0 +1,12 @@
+body {
+    background-image: url("/archivos/laboratorio05/img/pinturaVerde_R.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 140%;
+    background-attachment: fixed;
+}
+.contenedor{
+font-family: 'Sacramento', cursive;
+font-size: 150%;
+text-align: center;
+}
